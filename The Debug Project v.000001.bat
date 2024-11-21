@@ -24,6 +24,8 @@ if "%local_version%" NEQ "%remote_version%" (
     echo Lokal  Version: %local_version%
     echo New    Version: %remote_version%
     echo       Please update !!!
+    start msedge https://github.com/HaWai12/updater/tree/Thedebugproject
+    start chrome.exe https://github.com/HaWai12/updater/tree/Thedebugproject
     pause 
     exit 
 ) else (
