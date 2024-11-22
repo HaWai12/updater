@@ -1,4 +1,5 @@
- @echo off
+2010
+@echo off
 color 0E
 echo Checking for Updates...
 set "local_version=000001"
